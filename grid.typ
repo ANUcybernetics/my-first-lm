@@ -24,19 +24,16 @@
       place(
         dx: 0in,
         dy: 0in,
-        block(
+        box(
           width: first_cell_width,
           height: first_cell_height,
-          {
-            set text(font: "Public Sans", size: first_cell_width * 0.1)
-            grid(
-              rows: 2,
-              columns: 1,
-              row-gutter: 0pt,
-              align(center)[#image("ANU_Secondary_Horizontal_GoldBlack.png", width: 80%)],
-              align(center + bottom)[My First LM]
-            )
-          }
+          pad(
+            top: first_cell_height * 0.1,
+            bottom: first_cell_height * 0.1,
+            align(center + horizon)[
+              #image("ANU_Secondary_Horizontal_GoldBlack.png", width: first_cell_width * 0.6)
+            ]
+          )
         )
       )
 
