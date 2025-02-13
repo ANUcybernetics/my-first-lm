@@ -1,14 +1,18 @@
 #let grid(cols) = {
   set page(
     width: 11in,
-    height: 8.5in,
+    height: 11in,
     margin: 0pt
   )
 
   let page_width = 11in
-  let page_height = 8.5in
-  let cell_width = page_width / cols
-  let cell_height = page_height / cols
+  let page_height = 11in
+
+  // Adjust remaining width/height after accounting for double-width first row/column
+  let remaining_width = page_width - (page_width / (cols * 0.5))
+  let remaining_height = page_height - (page_height / (cols * 0.5))
+  let cell_width = remaining_width / (cols - 1)
+  let cell_height = remaining_height / (cols - 1)
 
   block(
     width: page_width,
@@ -16,8 +20,10 @@
     {
       // Vertical lines
       for i in range(cols + 1) {
-        let x = cell_width * i
-        let line_weight = if calc.rem(i, 4) == 0 { 1pt } else { 0.5pt }
+        let x = if i == 0 { 0in }
+               else if i == 1 { page_width / (cols * 0.5) }
+               else { page_width / (cols * 0.5) + cell_width * (i - 1) }
+        let line_weight = if calc.rem(i - 1, 4) == 0 { 1pt } else { 0.5pt }
         place(
           dx: x,
           line(
@@ -30,8 +36,10 @@
 
       // Horizontal lines
       for i in range(cols + 1) {
-        let y = cell_height * i
-        let line_weight = if calc.rem(i, 4) == 0 { 1pt } else { 0.5pt }
+        let y = if i == 0 { 0in }
+               else if i == 1 { page_height / (cols * 0.5) }
+               else { page_height / (cols * 0.5) + cell_height * (i - 1) }
+        let line_weight = if calc.rem(i - 1, 4) == 0 { 1pt } else { 0.5pt }
         place(
           dy: y,
           line(
@@ -44,4 +52,4 @@
   )
 }
 
-#grid(10)
+#grid(33)
