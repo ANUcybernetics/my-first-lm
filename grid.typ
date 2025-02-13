@@ -1,4 +1,4 @@
-#let grid(cols, ratio: 4) = {
+#let lm_grid(cols, ratio: 4) = {
   set page(
     width: 11in,
     height: 11in,
@@ -20,6 +20,26 @@
     width: page_width,
     height: page_height,
     {
+      // Add logo and text to first cell
+      place(
+        dx: 0in,
+        dy: 0in,
+        block(
+          width: first_cell_width,
+          height: first_cell_height,
+          {
+            set text(font: "Public Sans", size: first_cell_width * 0.1)
+            grid(
+              rows: 2,
+              columns: 1,
+              row-gutter: 0pt,
+              align(center)[#image("ANU_Secondary_Horizontal_GoldBlack.png", width: 80%)],
+              align(center + bottom)[My First LM]
+            )
+          }
+        )
+      )
+
       // Vertical lines
       for i in range(cols + 1) {
         let x = if i == 0 { 0in }
@@ -54,4 +74,4 @@
   )
 }
 
-#grid(33)
+#lm_grid(33)
