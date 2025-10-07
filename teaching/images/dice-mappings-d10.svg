@@ -19,288 +19,288 @@
   <!-- Row 2: 2 groups -->
   <g transform="translate(50, 10)">
     <text x="-25" y="15" class="row-label">2</text>
-    <text x="50" y="-4" class="group-label">1</text>
-    <text x="182" y="-4" class="group-label">2</text>
-    <rect x="0" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="20" y="0" width="60" height="20" class="cell"/>
-    <rect x="80" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="132" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="152" y="0" width="60" height="20" class="cell"/>
-    <rect x="212" y="0" width="20" height="20" class="cell-numbered"/>
-    <path d="M 20,0 v20 M 40,0 v20 M 60,0 v20 M 80,0 v20 M 152,0 v20 M 172,0 v20 M 192,0 v20 M 212,0 v20" class="cell-dividers"/>
-    <rect x="0" y="0" width="100" height="20" class="row-border"/>
-    <rect x="132" y="0" width="100" height="20" class="row-border"/>
-    <text x="10" y="13" class="number-text">1</text>
-    <text x="90" y="13" class="number-text">5</text>
-    <text x="142" y="13" class="number-text">6</text>
-    <text x="222" y="13" class="number-text">10</text>
+    <text x="50.0" y="-4" class="group-label">1</text>
+    <text x="182.0" y="-4" class="group-label">2</text>
+    <rect x="0.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="20.0" y="0" width="60" height="20" class="cell"/>
+    <rect x="80.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="132.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="152.0" y="0" width="60" height="20" class="cell"/>
+    <rect x="212.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <path d="M 20.0,0 v20 M 40.0,0 v20 M 60.0,0 v20 M 80.0,0 v20 M 152.0,0 v20 M 172.0,0 v20 M 192.0,0 v20 M 212.0,0 v20" class="cell-dividers"/>
+    <rect x="0.0" y="0" width="100" height="20" class="row-border"/>
+    <rect x="132.0" y="0" width="100" height="20" class="row-border"/>
+    <text x="10.0" y="13" class="number-text">1</text>
+    <text x="90.0" y="13" class="number-text">5</text>
+    <text x="142.0" y="13" class="number-text">6</text>
+    <text x="222.0" y="13" class="number-text">10</text>
   </g>
   <!-- Row 3: 3 groups (4+3+3) -->
   <g transform="translate(50, 50)">
     <text x="-25" y="15" class="row-label">3</text>
-    <text x="40" y="-4" class="group-label">1</text>
-    <text x="126" y="-4" class="group-label">2</text>
-    <text x="202" y="-4" class="group-label">3</text>
-    <rect x="0" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="20" y="0" width="40" height="20" class="cell"/>
-    <rect x="60" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="96" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="116" y="0" width="20" height="20" class="cell"/>
-    <rect x="136" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="172" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="192" y="0" width="20" height="20" class="cell"/>
-    <rect x="212" y="0" width="20" height="20" class="cell-numbered"/>
-    <path d="M 20,0 v20 M 40,0 v20 M 60,0 v20 M 116,0 v20 M 136,0 v20 M 192,0 v20 M 212,0 v20" class="cell-dividers"/>
-    <rect x="0" y="0" width="80" height="20" class="row-border"/>
-    <rect x="96" y="0" width="60" height="20" class="row-border"/>
-    <rect x="172" y="0" width="60" height="20" class="row-border"/>
-    <text x="10" y="13" class="number-text">1</text>
-    <text x="70" y="13" class="number-text">4</text>
-    <text x="106" y="13" class="number-text">5</text>
-    <text x="146" y="13" class="number-text">7</text>
-    <text x="182" y="13" class="number-text">8</text>
-    <text x="222" y="13" class="number-text">10</text>
+    <text x="40.0" y="-4" class="group-label">1</text>
+    <text x="126.0" y="-4" class="group-label">2</text>
+    <text x="202.0" y="-4" class="group-label">3</text>
+    <rect x="0.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="20.0" y="0" width="40" height="20" class="cell"/>
+    <rect x="60.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="96.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="116.0" y="0" width="20" height="20" class="cell"/>
+    <rect x="136.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="172.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="192.0" y="0" width="20" height="20" class="cell"/>
+    <rect x="212.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <path d="M 20.0,0 v20 M 40.0,0 v20 M 60.0,0 v20 M 116.0,0 v20 M 136.0,0 v20 M 192.0,0 v20 M 212.0,0 v20" class="cell-dividers"/>
+    <rect x="0.0" y="0" width="80" height="20" class="row-border"/>
+    <rect x="96.0" y="0" width="60" height="20" class="row-border"/>
+    <rect x="172.0" y="0" width="60" height="20" class="row-border"/>
+    <text x="10.0" y="13" class="number-text">1</text>
+    <text x="70.0" y="13" class="number-text">4</text>
+    <text x="106.0" y="13" class="number-text">5</text>
+    <text x="146.0" y="13" class="number-text">7</text>
+    <text x="182.0" y="13" class="number-text">8</text>
+    <text x="222.0" y="13" class="number-text">10</text>
   </g>
   <!-- Row 4: 4 groups (3+3+2+2) -->
   <g transform="translate(50, 90)">
     <text x="-25" y="15" class="row-label">4</text>
-    <text x="30" y="-4" class="group-label">1</text>
-    <text x="100" y="-4" class="group-label">2</text>
-    <text x="161" y="-4" class="group-label">3</text>
-    <text x="212" y="-4" class="group-label">4</text>
-    <rect x="0" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="20" y="0" width="20" height="20" class="cell"/>
-    <rect x="40" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="70" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="90" y="0" width="20" height="20" class="cell"/>
-    <rect x="110" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="141" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="161" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="192" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="212" y="0" width="20" height="20" class="cell-numbered"/>
-    <path d="M 20,0 v20 M 40,0 v20 M 90,0 v20 M 110,0 v20 M 161,0 v20 M 212,0 v20" class="cell-dividers"/>
-    <rect x="0" y="0" width="60" height="20" class="row-border"/>
-    <rect x="70" y="0" width="60" height="20" class="row-border"/>
-    <rect x="141" y="0" width="40" height="20" class="row-border"/>
-    <rect x="192" y="0" width="40" height="20" class="row-border"/>
-    <text x="10" y="13" class="number-text">1</text>
-    <text x="50" y="13" class="number-text">3</text>
-    <text x="80" y="13" class="number-text">4</text>
-    <text x="120" y="13" class="number-text">6</text>
-    <text x="151" y="13" class="number-text">7</text>
-    <text x="171" y="13" class="number-text">8</text>
-    <text x="202" y="13" class="number-text">9</text>
-    <text x="222" y="13" class="number-text">10</text>
+    <text x="30.0" y="-4" class="group-label">1</text>
+    <text x="100.66666666666667" y="-4" class="group-label">2</text>
+    <text x="161.33333333333334" y="-4" class="group-label">3</text>
+    <text x="212.0" y="-4" class="group-label">4</text>
+    <rect x="0.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="20.0" y="0" width="20" height="20" class="cell"/>
+    <rect x="40.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="70.66666666666667" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="90.66666666666667" y="0" width="20" height="20" class="cell"/>
+    <rect x="110.66666666666667" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="141.33333333333334" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="161.33333333333334" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="192.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="212.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <path d="M 20.0,0 v20 M 40.0,0 v20 M 90.66666666666667,0 v20 M 110.66666666666667,0 v20 M 161.33333333333334,0 v20 M 212.0,0 v20" class="cell-dividers"/>
+    <rect x="0.0" y="0" width="60" height="20" class="row-border"/>
+    <rect x="70.66666666666667" y="0" width="60" height="20" class="row-border"/>
+    <rect x="141.33333333333334" y="0" width="40" height="20" class="row-border"/>
+    <rect x="192.0" y="0" width="40" height="20" class="row-border"/>
+    <text x="10.0" y="13" class="number-text">1</text>
+    <text x="50.0" y="13" class="number-text">3</text>
+    <text x="80.66666666666667" y="13" class="number-text">4</text>
+    <text x="120.66666666666667" y="13" class="number-text">6</text>
+    <text x="151.33333333333334" y="13" class="number-text">7</text>
+    <text x="171.33333333333334" y="13" class="number-text">8</text>
+    <text x="202.0" y="13" class="number-text">9</text>
+    <text x="222.0" y="13" class="number-text">10</text>
   </g>
   <!-- Row 5: 5 groups -->
   <g transform="translate(50, 130)">
     <text x="-25" y="15" class="row-label">5</text>
-    <text x="20" y="-4" class="group-label">1</text>
-    <text x="68" y="-4" class="group-label">2</text>
-    <text x="116" y="-4" class="group-label">3</text>
-    <text x="164" y="-4" class="group-label">4</text>
-    <text x="212" y="-4" class="group-label">5</text>
-    <rect x="0" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="20" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="48" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="68" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="96" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="116" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="144" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="164" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="192" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="212" y="0" width="20" height="20" class="cell-numbered"/>
-    <path d="M 20,0 v20 M 68,0 v20 M 116,0 v20 M 164,0 v20 M 212,0 v20" class="cell-dividers"/>
-    <rect x="0" y="0" width="40" height="20" class="row-border"/>
-    <rect x="48" y="0" width="40" height="20" class="row-border"/>
-    <rect x="96" y="0" width="40" height="20" class="row-border"/>
-    <rect x="144" y="0" width="40" height="20" class="row-border"/>
-    <rect x="192" y="0" width="40" height="20" class="row-border"/>
-    <text x="10" y="13" class="number-text">1</text>
-    <text x="30" y="13" class="number-text">2</text>
-    <text x="58" y="13" class="number-text">3</text>
-    <text x="78" y="13" class="number-text">4</text>
-    <text x="106" y="13" class="number-text">5</text>
-    <text x="126" y="13" class="number-text">6</text>
-    <text x="154" y="13" class="number-text">7</text>
-    <text x="174" y="13" class="number-text">8</text>
-    <text x="202" y="13" class="number-text">9</text>
-    <text x="222" y="13" class="number-text">10</text>
+    <text x="20.0" y="-4" class="group-label">1</text>
+    <text x="68.0" y="-4" class="group-label">2</text>
+    <text x="116.0" y="-4" class="group-label">3</text>
+    <text x="164.0" y="-4" class="group-label">4</text>
+    <text x="212.0" y="-4" class="group-label">5</text>
+    <rect x="0.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="20.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="48.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="68.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="96.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="116.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="144.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="164.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="192.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="212.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <path d="M 20.0,0 v20 M 68.0,0 v20 M 116.0,0 v20 M 164.0,0 v20 M 212.0,0 v20" class="cell-dividers"/>
+    <rect x="0.0" y="0" width="40" height="20" class="row-border"/>
+    <rect x="48.0" y="0" width="40" height="20" class="row-border"/>
+    <rect x="96.0" y="0" width="40" height="20" class="row-border"/>
+    <rect x="144.0" y="0" width="40" height="20" class="row-border"/>
+    <rect x="192.0" y="0" width="40" height="20" class="row-border"/>
+    <text x="10.0" y="13" class="number-text">1</text>
+    <text x="30.0" y="13" class="number-text">2</text>
+    <text x="58.0" y="13" class="number-text">3</text>
+    <text x="78.0" y="13" class="number-text">4</text>
+    <text x="106.0" y="13" class="number-text">5</text>
+    <text x="126.0" y="13" class="number-text">6</text>
+    <text x="154.0" y="13" class="number-text">7</text>
+    <text x="174.0" y="13" class="number-text">8</text>
+    <text x="202.0" y="13" class="number-text">9</text>
+    <text x="222.0" y="13" class="number-text">10</text>
   </g>
   <!-- Row 6: 6 groups -->
   <g transform="translate(50, 170)">
     <text x="-25" y="15" class="row-label">6</text>
-    <text x="10" y="-4" class="group-label">1</text>
-    <text x="33" y="-4" class="group-label">2</text>
-    <text x="57" y="-4" class="group-label">3</text>
-    <text x="80" y="-4" class="group-label">4</text>
-    <text x="104" y="-4" class="group-label">5</text>
-    <text x="127" y="-4" class="group-label">6</text>
-    <text x="151" y="-4" class="group-label-disabled">7</text>
-    <text x="174" y="-4" class="group-label-disabled">8</text>
-    <text x="198" y="-4" class="group-label-disabled">9</text>
-    <text x="221" y="-4" class="group-label-disabled">10</text>
-    <rect x="0" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="23" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="47" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="70" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="94" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="117" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="141" y="0" width="20" height="20" class="cell-numbered-disabled"/>
-    <rect x="164" y="0" width="20" height="20" class="cell-numbered-disabled"/>
-    <rect x="188" y="0" width="20" height="20" class="cell-numbered-disabled"/>
-    <rect x="211" y="0" width="20" height="20" class="cell-numbered-disabled"/>
-    <rect x="0" y="0" width="20" height="20" class="row-border"/>
-    <rect x="23" y="0" width="20" height="20" class="row-border"/>
-    <rect x="47" y="0" width="20" height="20" class="row-border"/>
-    <rect x="70" y="0" width="20" height="20" class="row-border"/>
-    <rect x="94" y="0" width="20" height="20" class="row-border"/>
-    <rect x="117" y="0" width="20" height="20" class="row-border"/>
-    <rect x="141" y="0" width="20" height="20" class="row-border"/>
-    <rect x="164" y="0" width="20" height="20" class="row-border"/>
-    <rect x="188" y="0" width="20" height="20" class="row-border"/>
-    <rect x="211" y="0" width="20" height="20" class="row-border"/>
-    <text x="10" y="13" class="number-text">1</text>
-    <text x="33" y="13" class="number-text">2</text>
-    <text x="57" y="13" class="number-text">3</text>
-    <text x="80" y="13" class="number-text">4</text>
-    <text x="104" y="13" class="number-text">5</text>
-    <text x="127" y="13" class="number-text">6</text>
-    <text x="151" y="13" class="number-text-disabled">7</text>
-    <text x="174" y="13" class="number-text-disabled">8</text>
-    <text x="198" y="13" class="number-text-disabled">9</text>
-    <text x="221" y="13" class="number-text-disabled">10</text>
+    <text x="10.0" y="-4" class="group-label">1</text>
+    <text x="33.55555555555556" y="-4" class="group-label">2</text>
+    <text x="57.111111111111114" y="-4" class="group-label">3</text>
+    <text x="80.66666666666667" y="-4" class="group-label">4</text>
+    <text x="104.22222222222223" y="-4" class="group-label">5</text>
+    <text x="127.77777777777779" y="-4" class="group-label">6</text>
+    <text x="151.33333333333331" y="-4" class="group-label-disabled">7</text>
+    <text x="174.88888888888886" y="-4" class="group-label-disabled">8</text>
+    <text x="198.4444444444444" y="-4" class="group-label-disabled">9</text>
+    <text x="221.99999999999994" y="-4" class="group-label-disabled">10</text>
+    <rect x="0.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="23.555555555555557" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="47.111111111111114" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="70.66666666666667" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="94.22222222222223" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="117.77777777777779" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="141.33333333333331" y="0" width="20" height="20" class="cell-numbered-disabled"/>
+    <rect x="164.88888888888886" y="0" width="20" height="20" class="cell-numbered-disabled"/>
+    <rect x="188.4444444444444" y="0" width="20" height="20" class="cell-numbered-disabled"/>
+    <rect x="211.99999999999994" y="0" width="20" height="20" class="cell-numbered-disabled"/>
+    <rect x="0.0" y="0" width="20" height="20" class="row-border"/>
+    <rect x="23.555555555555557" y="0" width="20" height="20" class="row-border"/>
+    <rect x="47.111111111111114" y="0" width="20" height="20" class="row-border"/>
+    <rect x="70.66666666666667" y="0" width="20" height="20" class="row-border"/>
+    <rect x="94.22222222222223" y="0" width="20" height="20" class="row-border"/>
+    <rect x="117.77777777777779" y="0" width="20" height="20" class="row-border"/>
+    <rect x="141.33333333333331" y="0" width="20" height="20" class="row-border"/>
+    <rect x="164.88888888888886" y="0" width="20" height="20" class="row-border"/>
+    <rect x="188.4444444444444" y="0" width="20" height="20" class="row-border"/>
+    <rect x="211.99999999999994" y="0" width="20" height="20" class="row-border"/>
+    <text x="10.0" y="13" class="number-text">1</text>
+    <text x="33.55555555555556" y="13" class="number-text">2</text>
+    <text x="57.111111111111114" y="13" class="number-text">3</text>
+    <text x="80.66666666666667" y="13" class="number-text">4</text>
+    <text x="104.22222222222223" y="13" class="number-text">5</text>
+    <text x="127.77777777777779" y="13" class="number-text">6</text>
+    <text x="151.33333333333331" y="13" class="number-text-disabled">7</text>
+    <text x="174.88888888888886" y="13" class="number-text-disabled">8</text>
+    <text x="198.4444444444444" y="13" class="number-text-disabled">9</text>
+    <text x="221.99999999999994" y="13" class="number-text-disabled">10</text>
   </g>
   <!-- Row 7: 7 groups -->
   <g transform="translate(50, 210)">
     <text x="-25" y="15" class="row-label">7</text>
-    <text x="10" y="-4" class="group-label">1</text>
-    <text x="33" y="-4" class="group-label">2</text>
-    <text x="57" y="-4" class="group-label">3</text>
-    <text x="80" y="-4" class="group-label">4</text>
-    <text x="104" y="-4" class="group-label">5</text>
-    <text x="127" y="-4" class="group-label">6</text>
-    <text x="151" y="-4" class="group-label">7</text>
-    <text x="174" y="-4" class="group-label-disabled">8</text>
-    <text x="198" y="-4" class="group-label-disabled">9</text>
-    <text x="221" y="-4" class="group-label-disabled">10</text>
-    <rect x="0" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="23" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="47" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="70" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="94" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="117" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="141" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="164" y="0" width="20" height="20" class="cell-numbered-disabled"/>
-    <rect x="188" y="0" width="20" height="20" class="cell-numbered-disabled"/>
-    <rect x="211" y="0" width="20" height="20" class="cell-numbered-disabled"/>
-    <rect x="0" y="0" width="20" height="20" class="row-border"/>
-    <rect x="23" y="0" width="20" height="20" class="row-border"/>
-    <rect x="47" y="0" width="20" height="20" class="row-border"/>
-    <rect x="70" y="0" width="20" height="20" class="row-border"/>
-    <rect x="94" y="0" width="20" height="20" class="row-border"/>
-    <rect x="117" y="0" width="20" height="20" class="row-border"/>
-    <rect x="141" y="0" width="20" height="20" class="row-border"/>
-    <rect x="164" y="0" width="20" height="20" class="row-border"/>
-    <rect x="188" y="0" width="20" height="20" class="row-border"/>
-    <rect x="211" y="0" width="20" height="20" class="row-border"/>
-    <text x="10" y="13" class="number-text">1</text>
-    <text x="33" y="13" class="number-text">2</text>
-    <text x="57" y="13" class="number-text">3</text>
-    <text x="80" y="13" class="number-text">4</text>
-    <text x="104" y="13" class="number-text">5</text>
-    <text x="127" y="13" class="number-text">6</text>
-    <text x="151" y="13" class="number-text">7</text>
-    <text x="174" y="13" class="number-text-disabled">8</text>
-    <text x="198" y="13" class="number-text-disabled">9</text>
-    <text x="221" y="13" class="number-text-disabled">10</text>
+    <text x="10.0" y="-4" class="group-label">1</text>
+    <text x="33.55555555555556" y="-4" class="group-label">2</text>
+    <text x="57.111111111111114" y="-4" class="group-label">3</text>
+    <text x="80.66666666666667" y="-4" class="group-label">4</text>
+    <text x="104.22222222222223" y="-4" class="group-label">5</text>
+    <text x="127.77777777777779" y="-4" class="group-label">6</text>
+    <text x="151.33333333333331" y="-4" class="group-label">7</text>
+    <text x="174.88888888888886" y="-4" class="group-label-disabled">8</text>
+    <text x="198.4444444444444" y="-4" class="group-label-disabled">9</text>
+    <text x="221.99999999999994" y="-4" class="group-label-disabled">10</text>
+    <rect x="0.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="23.555555555555557" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="47.111111111111114" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="70.66666666666667" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="94.22222222222223" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="117.77777777777779" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="141.33333333333331" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="164.88888888888886" y="0" width="20" height="20" class="cell-numbered-disabled"/>
+    <rect x="188.4444444444444" y="0" width="20" height="20" class="cell-numbered-disabled"/>
+    <rect x="211.99999999999994" y="0" width="20" height="20" class="cell-numbered-disabled"/>
+    <rect x="0.0" y="0" width="20" height="20" class="row-border"/>
+    <rect x="23.555555555555557" y="0" width="20" height="20" class="row-border"/>
+    <rect x="47.111111111111114" y="0" width="20" height="20" class="row-border"/>
+    <rect x="70.66666666666667" y="0" width="20" height="20" class="row-border"/>
+    <rect x="94.22222222222223" y="0" width="20" height="20" class="row-border"/>
+    <rect x="117.77777777777779" y="0" width="20" height="20" class="row-border"/>
+    <rect x="141.33333333333331" y="0" width="20" height="20" class="row-border"/>
+    <rect x="164.88888888888886" y="0" width="20" height="20" class="row-border"/>
+    <rect x="188.4444444444444" y="0" width="20" height="20" class="row-border"/>
+    <rect x="211.99999999999994" y="0" width="20" height="20" class="row-border"/>
+    <text x="10.0" y="13" class="number-text">1</text>
+    <text x="33.55555555555556" y="13" class="number-text">2</text>
+    <text x="57.111111111111114" y="13" class="number-text">3</text>
+    <text x="80.66666666666667" y="13" class="number-text">4</text>
+    <text x="104.22222222222223" y="13" class="number-text">5</text>
+    <text x="127.77777777777779" y="13" class="number-text">6</text>
+    <text x="151.33333333333331" y="13" class="number-text">7</text>
+    <text x="174.88888888888886" y="13" class="number-text-disabled">8</text>
+    <text x="198.4444444444444" y="13" class="number-text-disabled">9</text>
+    <text x="221.99999999999994" y="13" class="number-text-disabled">10</text>
   </g>
   <!-- Row 8: 8 groups -->
   <g transform="translate(50, 250)">
     <text x="-25" y="15" class="row-label">8</text>
-    <text x="10" y="-4" class="group-label">1</text>
-    <text x="33" y="-4" class="group-label">2</text>
-    <text x="57" y="-4" class="group-label">3</text>
-    <text x="80" y="-4" class="group-label">4</text>
-    <text x="104" y="-4" class="group-label">5</text>
-    <text x="127" y="-4" class="group-label">6</text>
-    <text x="151" y="-4" class="group-label">7</text>
-    <text x="174" y="-4" class="group-label">8</text>
-    <text x="198" y="-4" class="group-label-disabled">9</text>
-    <text x="221" y="-4" class="group-label-disabled">10</text>
-    <rect x="0" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="23" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="47" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="70" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="94" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="117" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="141" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="164" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="188" y="0" width="20" height="20" class="cell-numbered-disabled"/>
-    <rect x="211" y="0" width="20" height="20" class="cell-numbered-disabled"/>
-    <rect x="0" y="0" width="20" height="20" class="row-border"/>
-    <rect x="23" y="0" width="20" height="20" class="row-border"/>
-    <rect x="47" y="0" width="20" height="20" class="row-border"/>
-    <rect x="70" y="0" width="20" height="20" class="row-border"/>
-    <rect x="94" y="0" width="20" height="20" class="row-border"/>
-    <rect x="117" y="0" width="20" height="20" class="row-border"/>
-    <rect x="141" y="0" width="20" height="20" class="row-border"/>
-    <rect x="164" y="0" width="20" height="20" class="row-border"/>
-    <rect x="188" y="0" width="20" height="20" class="row-border"/>
-    <rect x="211" y="0" width="20" height="20" class="row-border"/>
-    <text x="10" y="13" class="number-text">1</text>
-    <text x="33" y="13" class="number-text">2</text>
-    <text x="57" y="13" class="number-text">3</text>
-    <text x="80" y="13" class="number-text">4</text>
-    <text x="104" y="13" class="number-text">5</text>
-    <text x="127" y="13" class="number-text">6</text>
-    <text x="151" y="13" class="number-text">7</text>
-    <text x="174" y="13" class="number-text">8</text>
-    <text x="198" y="13" class="number-text-disabled">9</text>
-    <text x="221" y="13" class="number-text-disabled">10</text>
+    <text x="10.0" y="-4" class="group-label">1</text>
+    <text x="33.55555555555556" y="-4" class="group-label">2</text>
+    <text x="57.111111111111114" y="-4" class="group-label">3</text>
+    <text x="80.66666666666667" y="-4" class="group-label">4</text>
+    <text x="104.22222222222223" y="-4" class="group-label">5</text>
+    <text x="127.77777777777779" y="-4" class="group-label">6</text>
+    <text x="151.33333333333331" y="-4" class="group-label">7</text>
+    <text x="174.88888888888886" y="-4" class="group-label">8</text>
+    <text x="198.4444444444444" y="-4" class="group-label-disabled">9</text>
+    <text x="221.99999999999994" y="-4" class="group-label-disabled">10</text>
+    <rect x="0.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="23.555555555555557" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="47.111111111111114" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="70.66666666666667" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="94.22222222222223" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="117.77777777777779" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="141.33333333333331" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="164.88888888888886" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="188.4444444444444" y="0" width="20" height="20" class="cell-numbered-disabled"/>
+    <rect x="211.99999999999994" y="0" width="20" height="20" class="cell-numbered-disabled"/>
+    <rect x="0.0" y="0" width="20" height="20" class="row-border"/>
+    <rect x="23.555555555555557" y="0" width="20" height="20" class="row-border"/>
+    <rect x="47.111111111111114" y="0" width="20" height="20" class="row-border"/>
+    <rect x="70.66666666666667" y="0" width="20" height="20" class="row-border"/>
+    <rect x="94.22222222222223" y="0" width="20" height="20" class="row-border"/>
+    <rect x="117.77777777777779" y="0" width="20" height="20" class="row-border"/>
+    <rect x="141.33333333333331" y="0" width="20" height="20" class="row-border"/>
+    <rect x="164.88888888888886" y="0" width="20" height="20" class="row-border"/>
+    <rect x="188.4444444444444" y="0" width="20" height="20" class="row-border"/>
+    <rect x="211.99999999999994" y="0" width="20" height="20" class="row-border"/>
+    <text x="10.0" y="13" class="number-text">1</text>
+    <text x="33.55555555555556" y="13" class="number-text">2</text>
+    <text x="57.111111111111114" y="13" class="number-text">3</text>
+    <text x="80.66666666666667" y="13" class="number-text">4</text>
+    <text x="104.22222222222223" y="13" class="number-text">5</text>
+    <text x="127.77777777777779" y="13" class="number-text">6</text>
+    <text x="151.33333333333331" y="13" class="number-text">7</text>
+    <text x="174.88888888888886" y="13" class="number-text">8</text>
+    <text x="198.4444444444444" y="13" class="number-text-disabled">9</text>
+    <text x="221.99999999999994" y="13" class="number-text-disabled">10</text>
   </g>
   <!-- Row 9: 9 groups -->
   <g transform="translate(50, 290)">
     <text x="-25" y="15" class="row-label">9</text>
-    <text x="10" y="-4" class="group-label">1</text>
-    <text x="33" y="-4" class="group-label">2</text>
-    <text x="57" y="-4" class="group-label">3</text>
-    <text x="80" y="-4" class="group-label">4</text>
-    <text x="104" y="-4" class="group-label">5</text>
-    <text x="127" y="-4" class="group-label">6</text>
-    <text x="151" y="-4" class="group-label">7</text>
-    <text x="174" y="-4" class="group-label">8</text>
-    <text x="198" y="-4" class="group-label">9</text>
-    <text x="221" y="-4" class="group-label-disabled">10</text>
-    <rect x="0" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="23" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="47" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="70" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="94" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="117" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="141" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="164" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="188" y="0" width="20" height="20" class="cell-numbered"/>
-    <rect x="211" y="0" width="20" height="20" class="cell-numbered-disabled"/>
-    <rect x="0" y="0" width="20" height="20" class="row-border"/>
-    <rect x="23" y="0" width="20" height="20" class="row-border"/>
-    <rect x="47" y="0" width="20" height="20" class="row-border"/>
-    <rect x="70" y="0" width="20" height="20" class="row-border"/>
-    <rect x="94" y="0" width="20" height="20" class="row-border"/>
-    <rect x="117" y="0" width="20" height="20" class="row-border"/>
-    <rect x="141" y="0" width="20" height="20" class="row-border"/>
-    <rect x="164" y="0" width="20" height="20" class="row-border"/>
-    <rect x="188" y="0" width="20" height="20" class="row-border"/>
-    <rect x="211" y="0" width="20" height="20" class="row-border"/>
-    <text x="10" y="13" class="number-text">1</text>
-    <text x="33" y="13" class="number-text">2</text>
-    <text x="57" y="13" class="number-text">3</text>
-    <text x="80" y="13" class="number-text">4</text>
-    <text x="104" y="13" class="number-text">5</text>
-    <text x="127" y="13" class="number-text">6</text>
-    <text x="151" y="13" class="number-text">7</text>
-    <text x="174" y="13" class="number-text">8</text>
-    <text x="198" y="13" class="number-text">9</text>
-    <text x="221" y="13" class="number-text-disabled">10</text>
+    <text x="10.0" y="-4" class="group-label">1</text>
+    <text x="33.55555555555556" y="-4" class="group-label">2</text>
+    <text x="57.111111111111114" y="-4" class="group-label">3</text>
+    <text x="80.66666666666667" y="-4" class="group-label">4</text>
+    <text x="104.22222222222223" y="-4" class="group-label">5</text>
+    <text x="127.77777777777779" y="-4" class="group-label">6</text>
+    <text x="151.33333333333331" y="-4" class="group-label">7</text>
+    <text x="174.88888888888886" y="-4" class="group-label">8</text>
+    <text x="198.4444444444444" y="-4" class="group-label">9</text>
+    <text x="221.99999999999994" y="-4" class="group-label-disabled">10</text>
+    <rect x="0.0" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="23.555555555555557" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="47.111111111111114" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="70.66666666666667" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="94.22222222222223" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="117.77777777777779" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="141.33333333333331" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="164.88888888888886" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="188.4444444444444" y="0" width="20" height="20" class="cell-numbered"/>
+    <rect x="211.99999999999994" y="0" width="20" height="20" class="cell-numbered-disabled"/>
+    <rect x="0.0" y="0" width="20" height="20" class="row-border"/>
+    <rect x="23.555555555555557" y="0" width="20" height="20" class="row-border"/>
+    <rect x="47.111111111111114" y="0" width="20" height="20" class="row-border"/>
+    <rect x="70.66666666666667" y="0" width="20" height="20" class="row-border"/>
+    <rect x="94.22222222222223" y="0" width="20" height="20" class="row-border"/>
+    <rect x="117.77777777777779" y="0" width="20" height="20" class="row-border"/>
+    <rect x="141.33333333333331" y="0" width="20" height="20" class="row-border"/>
+    <rect x="164.88888888888886" y="0" width="20" height="20" class="row-border"/>
+    <rect x="188.4444444444444" y="0" width="20" height="20" class="row-border"/>
+    <rect x="211.99999999999994" y="0" width="20" height="20" class="row-border"/>
+    <text x="10.0" y="13" class="number-text">1</text>
+    <text x="33.55555555555556" y="13" class="number-text">2</text>
+    <text x="57.111111111111114" y="13" class="number-text">3</text>
+    <text x="80.66666666666667" y="13" class="number-text">4</text>
+    <text x="104.22222222222223" y="13" class="number-text">5</text>
+    <text x="127.77777777777779" y="13" class="number-text">6</text>
+    <text x="151.33333333333331" y="13" class="number-text">7</text>
+    <text x="174.88888888888886" y="13" class="number-text">8</text>
+    <text x="198.4444444444444" y="13" class="number-text">9</text>
+    <text x="221.99999999999994" y="13" class="number-text-disabled">10</text>
   </g>
 </svg>
