@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @theme {
     --color-anu-white: #ffffff;
@@ -45,109 +46,21 @@
     top: 0;
 }
 
-.prose {
-    --tw-prose-body: var(--color-anu-white);
-    --tw-prose-headings: var(--color-anu-white);
-    --tw-prose-links: var(--color-anu-gold-2);
-    --tw-prose-bold: var(--color-anu-white);
-    --tw-prose-counters: var(--color-anu-white);
-    --tw-prose-bullets: var(--color-anu-white);
-    --tw-prose-hr: var(--color-anu-gold);
-    --tw-prose-quotes: var(--color-anu-white);
-    --tw-prose-quote-borders: var(--color-anu-gold);
-    --tw-prose-captions: var(--color-anu-white);
-    --tw-prose-code: var(--color-anu-white);
-    --tw-prose-code-bg: var(--color-anu-unilink-gold);
-
-    color: var(--tw-prose-body);
-    max-width: none;
-    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
-    line-height: 1.8;
-
-    /* CSS Containment for better performance */
-    contain: layout style paint;
-}
-
-.prose a {
-    color: var(--tw-prose-links);
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 150ms ease-in-out;
-}
-
-.prose a:hover {
-    color: var(--color-anu-gold-4);
-}
-
-.prose strong {
-    color: var(--tw-prose-bold);
-    font-weight: 600;
-}
-
-.prose h1,
-.prose h2,
-.prose h3,
-.prose h4,
-.prose h5,
-.prose h6 {
-    color: var(--tw-prose-headings);
-    font-weight: 700;
-    line-height: 1.25;
-    margin-top: 2em;
-    margin-bottom: 0.75em;
-}
-
-.prose h1 {
-    font-size: clamp(1.875rem, 1.5rem + 2vw, 2.25rem);
-    margin-top: 0;
-}
-
-.prose h2 {
-    font-size: clamp(1.5rem, 1.25rem + 1.5vw, 1.875rem);
-}
-
-.prose h3 {
-    font-size: clamp(1.25rem, 1rem + 1vw, 1.5rem);
-}
-
-.prose p {
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
-}
-
-.prose ul,
-.prose ol {
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
-    padding-left: 1.5em;
-}
-
-.prose li {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-.prose code {
-    color: var(--tw-prose-code);
-    background-color: var(--tw-prose-code-bg);
-    padding: 0.2em 0.4em;
-    border-radius: 0.25rem;
-    font-size: 0.875em;
-    font-weight: 500;
-    border: 1px solid var(--color-anu-gold-4);
-}
-
-.prose blockquote {
-    border-left: 0.25rem solid var(--tw-prose-quote-borders);
-    padding-left: 1em;
-    font-style: italic;
-    color: var(--tw-prose-quotes);
-}
-
-.prose hr {
-    border-color: var(--tw-prose-hr);
-    margin-top: 3em;
-    margin-bottom: 3em;
+@theme inline {
+    --prose--body: var(--color-anu-white);
+    --prose--heading: var(--color-anu-white);
+    --prose--link: var(--color-anu-gold-2);
+    --prose--link-hover: var(--color-anu-gold-4);
+    --prose--bold: var(--color-anu-white);
+    --prose--counter: var(--color-anu-white);
+    --prose--bullet: var(--color-anu-white);
+    --prose--hr: var(--color-anu-gold);
+    --prose--quote: var(--color-anu-white);
+    --prose--quote-border: var(--color-anu-gold);
+    --prose--caption: var(--color-anu-white);
+    --prose--code: var(--color-anu-white);
+    --prose--code-bg: var(--color-anu-unilink-gold);
+    --prose--code-ring: var(--color-anu-gold-4);
 }
 
 /* Reduced motion support */
