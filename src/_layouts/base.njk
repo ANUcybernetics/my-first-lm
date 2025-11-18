@@ -3,11 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ description or 'Ready-to-use teaching resources for understanding how large language models work through hands-on activities. No computers required.' }}">
   <title>{{ title or "LLMs Unplugged" }}</title>
   <link rel="stylesheet" href="/assets/main.css">
 </head>
-<body class="min-h-screen bg-white text-gray-900">
-  {{ content | safe }}
+<body class="min-h-screen bg-anu-black text-anu-white flex flex-col">
+  <header class="border-b border-anu-gold">
+    <nav class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+      <div class="flex items-center justify-between h-16">
+        <a href="/" class="text-lg font-semibold text-anu-white hover:text-anu-gold transition-colors" aria-label="LLMs Unplugged home">
+          LLMs Unplugged
+        </a>
+        <ul class="flex gap-6 sm:gap-8">
+          <li>
+            <a href="/" class="text-anu-white hover:text-anu-gold-2 transition-colors{% if page.url == '/' %} font-semibold{% endif %}" {% if page.url == '/' %}aria-current="page"{% endif %}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="/related/" class="text-anu-white hover:text-anu-gold-2 transition-colors{% if page.url == '/related/' %} font-semibold{% endif %}" {% if page.url == '/related/' %}aria-current="page"{% endif %}>
+              Related
+            </a>
+          </li>
+          <li>
+            <a href="/contact/" class="text-anu-white hover:text-anu-gold-2 transition-colors{% if page.url == '/contact/' %} font-semibold{% endif %}" {% if page.url == '/contact/' %}aria-current="page"{% endif %}>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="flex-1 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 w-full">
+    <article class="prose prose-lg max-w-none">
+      {{ content | safe }}
+    </article>
+  </main>
+
+  <footer class="border-t border-anu-gold mt-auto">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm text-anu-white">
+      <p>
+        A <a href="https://cybernetics.anu.edu.au/cybernetic-studio/" class="text-anu-gold-2 hover:text-anu-gold transition-colors">Cybernetic Studio</a> project at the <a href="https://cybernetics.anu.edu.au" class="text-anu-gold-2 hover:text-anu-gold transition-colors">ANU School of Cybernetics</a>.
+      </p>
+    </div>
+  </footer>
+
   <script type="module" src="/assets/main.js"></script>
 </body>
 </html>

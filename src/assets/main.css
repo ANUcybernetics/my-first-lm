@@ -1,1 +1,115 @@
 @import "tailwindcss";
+
+@theme {
+    --color-anu-white: #ffffff;
+    --color-anu-black: #000000;
+    --color-anu-gold: #be830e;
+    --color-anu-gold-2: hsl(from #be830e h calc(s - 30) 77);
+    --color-anu-gold-4: hsl(from #be830e h s calc(l + 8));
+    --color-anu-unilink-gold: #945f00;
+    --color-anu-teal: #0085ad;
+    --color-anu-copper: #be4e0e;
+    --color-anu-grey-table-alt: #1a1a1a;
+    --color-anu-grey-table-line: #b0b0b0;
+}
+
+.prose {
+    --tw-prose-body: var(--color-anu-white);
+    --tw-prose-headings: var(--color-anu-white);
+    --tw-prose-links: var(--color-anu-gold-2);
+    --tw-prose-bold: var(--color-anu-white);
+    --tw-prose-counters: var(--color-anu-white);
+    --tw-prose-bullets: var(--color-anu-white);
+    --tw-prose-hr: var(--color-anu-gold);
+    --tw-prose-quotes: var(--color-anu-white);
+    --tw-prose-quote-borders: var(--color-anu-gold);
+    --tw-prose-captions: var(--color-anu-white);
+    --tw-prose-code: var(--color-anu-white);
+    --tw-prose-code-bg: var(--color-anu-unilink-gold);
+
+    color: var(--tw-prose-body);
+    max-width: 65ch;
+    line-height: 1.7;
+}
+
+.prose a {
+    color: var(--tw-prose-links);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 150ms ease-in-out;
+}
+
+.prose a:hover {
+    color: var(--color-anu-gold-light);
+}
+
+.prose strong {
+    color: var(--tw-prose-bold);
+    font-weight: 600;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+    color: var(--tw-prose-headings);
+    font-weight: 700;
+    line-height: 1.25;
+    margin-top: 2em;
+    margin-bottom: 0.75em;
+}
+
+.prose h1 {
+    font-size: 2.25rem;
+    margin-top: 0;
+}
+
+.prose h2 {
+    font-size: 1.875rem;
+}
+
+.prose h3 {
+    font-size: 1.5rem;
+}
+
+.prose p {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+.prose ul,
+.prose ol {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    padding-left: 1.5em;
+}
+
+.prose li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.prose code {
+    color: var(--tw-prose-code);
+    background-color: var(--tw-prose-code-bg);
+    padding: 0.2em 0.4em;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+    font-weight: 500;
+    border: 1px solid var(--color-anu-gold-4);
+}
+
+.prose blockquote {
+    border-left: 0.25rem solid var(--tw-prose-quote-borders);
+    padding-left: 1em;
+    font-style: italic;
+    color: var(--tw-prose-quotes);
+}
+
+.prose hr {
+    border-color: var(--tw-prose-hr);
+    margin-top: 3em;
+    margin-bottom: 3em;
+}

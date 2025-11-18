@@ -48,8 +48,27 @@ describe("build output", () => {
     const cssPath = join(assetsDir, cssFile);
     const css = readFileSync(cssPath, "utf-8");
     expect(css).toMatch(/\.min-h-screen/);
-    expect(css).toMatch(/\.bg-white/);
-    expect(css).toMatch(/\.text-gray-900/);
+    expect(css).toMatch(/\.bg-anu-black/);
+    expect(css).toMatch(/\.text-anu-white/);
+  });
+
+  it("includes custom ANU color definitions in CSS", () => {
+    const assetsDir = join(siteDir, "assets");
+    const files = readdirSync(assetsDir);
+    const cssFile = files.find((f) => f.endsWith(".css"));
+    const cssPath = join(assetsDir, cssFile);
+    const css = readFileSync(cssPath, "utf-8");
+    expect(css).toContain("--color-anu-gold");
+    expect(css).toContain("#be830e");
+  });
+
+  it("includes prose styling in CSS", () => {
+    const assetsDir = join(siteDir, "assets");
+    const files = readdirSync(assetsDir);
+    const cssFile = files.find((f) => f.endsWith(".css"));
+    const cssPath = join(assetsDir, cssFile);
+    const css = readFileSync(cssPath, "utf-8");
+    expect(css).toContain(".prose");
   });
 
   it("generates valid HTML with correct structure", () => {
@@ -87,5 +106,76 @@ describe("build output", () => {
     const assetsDir = join(siteDir, "assets");
     const files = readdirSync(assetsDir);
     expect(files).toContain(cssFileName);
+  });
+});
+
+describe("navigation", () => {
+  it("includes semantic header with nav element", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain("<header");
+    expect(html).toContain("<nav");
+    expect(html).toContain('aria-label="Main navigation"');
+  });
+
+  it("includes all navigation links", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain('href="/"');
+    expect(html).toContain('href="/related/"');
+    expect(html).toContain('href="/contact/"');
+  });
+
+  it("includes site branding link", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toMatch(/<a[^>]*href="\/"[^>]*>\s*LLMs Unplugged\s*<\/a>/);
+  });
+
+  it("includes semantic main element", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain("<main");
+  });
+
+  it("includes semantic footer", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain("<footer");
+    expect(html).toContain("Cybernetic Studio");
+  });
+
+  it("generates related page", () => {
+    const relatedPath = join(siteDir, "related", "index.html");
+    expect(existsSync(relatedPath)).toBe(true);
+    const html = readFileSync(relatedPath, "utf-8");
+    expect(html).toContain("Related resources");
+  });
+
+  it("generates contact page", () => {
+    const contactPath = join(siteDir, "contact", "index.html");
+    expect(existsSync(contactPath)).toBe(true);
+    const html = readFileSync(contactPath, "utf-8");
+    expect(html).toContain("Contact");
+  });
+});
+
+describe("accessibility", () => {
+  it("includes meta description for SEO", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain('<meta name="description"');
+  });
+
+  it("includes lang attribute on html element", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain('<html lang="en">');
+  });
+
+  it("includes viewport meta tag for responsive design", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain('<meta name="viewport"');
   });
 });
