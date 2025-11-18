@@ -21,10 +21,8 @@ real learners has been invaluable.
 ## Get in touch
 
 If you have questions about the materials, have used them successfully in your
-classroom, or would like to discuss adaptations for specific contexts, I'd love
-to hear from you.
-
-**Email**: [ben.swift@anu.edu.au](mailto:ben.swift@anu.edu.au)
+classroom, or would like to discuss adaptations for specific contexts, get in
+touch at [ben.swift@anu.edu.au](mailto:ben.swift@anu.edu.au)
 
 ## Resources and contributions
 
