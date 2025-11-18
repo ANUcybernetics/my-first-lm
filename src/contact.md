@@ -5,31 +5,31 @@ title: Contact
 
 # Contact
 
-_LLMs Unplugged_ is a
-[Cybernetic Studio's](https://cybernetics.anu.edu.au/cybernetic-studio/)
-project, led by [Ben Swift](https://benswift.me) at the
-[ANU School of Cybernetics](https://cybernetics.anu.edu.au). The materials have
-been developed through many workshops and courses at the School of Cybernetics
-over 2023--present.
+These _LLMs Unplugged_ resources are a
+[Cybernetic Studio](https://cybernetics.anu.edu.au/cybernetic-studio/) project
+created by [Dr. Ben Swift](https://benswift.me) at the
+[ANU School of Cybernetics](https://cybernetics.anu.edu.au).
 
-The work has benefited enormously from the input and facilitation help of Eddie
-Aloise King and Cole Cooney, along with feedback from approximately 400
+This work has benefited enormously from the input and facilitation help of Eddie
+Aloise King and Cole Cooney and other SoCy staff, plus feedback from hundreds of
 participants across diverse audiences---school students through to senior
 executives in the Australian Public Service. Iterating on these materials with
 real learners has been invaluable.
 
 ## Get in touch
 
-If you have questions about the materials, have used them successfully in your
-classroom, or would like to discuss adaptations for specific contexts, get in
-touch at [ben.swift@anu.edu.au](mailto:ben.swift@anu.edu.au)
+If you have questions about the materials, sucess stories about using them in
+your classroom, or would like to discuss adaptations for specific contexts, get
+in touch at [ben.swift@anu.edu.au](mailto:ben.swift@anu.edu.au)---we'd love to
+hear from you.
 
 ## Resources and contributions
 
-All materials are available under a Creative Commons BY-NC-SA 4.0 license at
-[github.com/ANUcybernetics/my-first-lm](https://github.com/ANUcybernetics/my-first-lm).
-
-The repository includes:
+All materials are available under a
+[Creative Commons BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+at
+[github.com/ANUcybernetics/my-first-lm](https://github.com/ANUcybernetics/my-first-lm),
+and includes:
 
 - [Module cards](https://github.com/ANUcybernetics/my-first-lm/blob/main/teaching/out/modules.pdf)
   (printable PDF handouts)
@@ -54,7 +54,7 @@ _LLMs Unplugged_ reflects the School's commitment to making sophisticated
 technical concepts accessible to diverse audiences and fostering critical
 engagement with AI systems that increasingly mediate how we work, learn, and
 communicate. Understanding how these systems actually work---not through
-metaphor or handwaving but through direct experience---matters.
+metaphor or handwaving but through direct experience---is what we're all about.
 
 [^love]:
     well, technically that's a requirement of the SA clause in the CC licence,

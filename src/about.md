@@ -47,9 +47,9 @@ to most people. _LLMs Unplugged_ aims to fill that gap.
 
 ## Historical foundations
 
-The n-gram language models participants build in these workshops have a lineage
-stretching back over a century. This isn't new theory---it's well-established
-mathematics applied by hand.
+The [n-gram language models](https://en.wikipedia.org/wiki/N-gram) participants
+build in these workshops have a lineage stretching back over a century. This
+isn't new theory---it's well-established mathematics applied by hand.
 
 ### Markov's stochastic processes (1913)
 
@@ -84,13 +84,13 @@ hand-crafted statistics.
 The activities in _LLMs Unplugged_ demonstrate the same operations used in
 current language models. The differences are mostly about scale:
 
-- **Parameters**: hand-built models have dozens to hundreds versus billions in
+- **parameters**: hand-built models have dozens to hundreds versus billions in
   modern LLMs, but the core concepts remain identical
-- **Training**: manual counting versus automated pattern detection, but both
+- **training**: manual counting versus automated pattern detection, but both
   processes learn probability distributions from text
-- **Generation**: dice rolls versus GPU-accelerated sampling, but both use
+- **generation**: dice rolls versus GPU-accelerated sampling, but both use
   weighted randomness to select the next token
-- **Context windows**: bigrams and trigrams versus 128,000+ token windows, but
+- **wontext windows**: bigrams and trigrams versus 128,000+ token windows, but
   longer context always enables better prediction
 
 Modern advances come from doing these same operations at massive scale with
@@ -100,7 +100,7 @@ dependencies and revealed through synthetic generation---comes directly from
 Shannon's mid-twentieth-century work and the unplugged methods he used to
 explore these ideas.
 
-Which is to say: when you're rolling dice and generating sentences in an LLMs
-Unplugged workshop, you're not just learning about modern AI. You're also
+Which is to say: when you're rolling dice and generating sentences in an _LLMs
+Unplugged_ workshop, you're not just learning about modern AI. You're also
 participating in a tradition of hands-on exploration that goes back to the
 origins of information theory itself.

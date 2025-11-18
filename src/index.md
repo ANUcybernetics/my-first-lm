@@ -5,8 +5,8 @@ title: LLMs Unplugged
 
 # LLMs Unplugged
 
-Ready-to-use teaching resources for understanding how large language models work
-through hands-on activities. No computers required.
+Ready-to-use teaching resources for understanding how large language models
+(LLMs) work through hands-on activities. No computers required.
 
 If you're just here for the resources, here they are:
 
@@ -15,12 +15,11 @@ If you're just here for the resources, here they are:
 
 ## What is this?
 
-ChatGPT arrived in November 2022 and suddenly everyone's using LLMs---knowledge
-workers across every domain now interact with these systems daily. Yet most
+ChatGPT arrived in November 2022 and suddenly everyone's using LLMs. Yet most
 people have no real mental model of what's actually happening under the hood.
-They've heard the mystical-sounding explanations, maybe picked up some vague
-notions about "neural networks" and "training data", but the core mechanism
-remains opaque.
+They've heard the hand-wave-y (and/or mystical-sounding) explanations, maybe
+picked up some vague notions about "neural networks" and "training data", but
+the core mechanism remains opaque.
 
 _LLMs Unplugged_ cuts through that opacity using the simplest possible approach:
 you build your own language model from scratch with pen, paper, and dice.
@@ -29,32 +28,32 @@ The process is straightforward. You manually count word patterns in some
 training text (say, a children's book). You record these patterns in a table.
 Then you use dice rolls to generate new sentences, making random choices
 weighted by what you've seen before. After an hour or so of doing this by hand,
-something clicks: you realise that ChatGPT works exactly the same way. Same
-fundamental process, vastly different scale.
+something clicks: you realise that ChatGPT works exactly the same way. It's the
+same fundamental process, just at a (vastly) different scale.
 
-Your bigram model might produce surprisingly coherent sentences, or delightfully
-nonsensical ones---either way, you've understood generation in a way no abstract
-explanation can provide. The approach strips away the distractions of code and
-infrastructure, letting you focus on the underlying principles. When you've
-spent an afternoon rolling dice and watching patterns emerge, you know how
-language models work.
+Your hand-rolled language model might produce surprisingly coherent sentences,
+or delightfully nonsensical ones---either way, you've understood generation in a
+way no abstract explanation can provide. The approach strips away the
+distractions of code and infrastructure, letting you focus on the underlying
+principles. When you've spent an afternoon rolling dice and watching patterns
+emerge, you have a better sense of how language models work.
 
 ## Who's this for?
 
-These activities work for audiences from high school age through to adults. No
-programming background required. No mathematics beyond basic counting and
-percentages.
+These activities are suitable for audiences from high school age through to
+adults. No programming background required. No mathematics beyond basic counting
+and percentages.
 
-Over the past year, approximately 400 participants have experienced these
-workshops at the Australian National University---school students, undergraduate
+We've run it for hundreds of participants---school students, undergraduate
 students, senior executives in the Australian Public Service. The material
 consistently helps people build new mental models of how LLMs work, demystifying
 systems they may have previously thought of as almost magical.
 
 ## What's included?
 
-The complete resource pack is available under a Creative Commons BY-NC-SA 4.0
-license at
+The complete resource pack is available under a
+[Creative Commons BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+at
 [github.com/ANUcybernetics/my-first-lm](https://github.com/ANUcybernetics/my-first-lm):
 
 - **[Module cards](https://github.com/ANUcybernetics/my-first-lm/blob/main/teaching/out/modules.pdf)**:
@@ -76,9 +75,10 @@ particularly engaged audience.
 
 ## Getting started
 
-Visit the [GitHub repository](https://github.com/ANUcybernetics/my-first-lm) to
-download the materials and start running your own workshops. The modular design
-means you can scale content up or down based on available time and audience
+Follow the links above (or visit the
+[GitHub repository](https://github.com/ANUcybernetics/my-first-lm)) to download
+the materials and start running your own workshops. The modular design means you
+can scale content up or down based on available time and audience
 sophistication.
 
 As LLMs become increasingly central to how we work with text and interact with
