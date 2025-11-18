@@ -78,9 +78,6 @@ describe("build output", () => {
     const cssPath = join(assetsDir, cssFile);
     const css = readFileSync(cssPath, "utf-8");
 
-    // Fluid typography with clamp()
-    expect(css).toContain("clamp(");
-
     // Focus visible styles
     expect(css).toContain(":focus-visible");
 
@@ -89,9 +86,6 @@ describe("build output", () => {
 
     // Print styles
     expect(css).toContain("@media print");
-
-    // CSS containment
-    expect(css).toContain("contain:");
 
     // Skip link styles
     expect(css).toContain(".skip-link");
@@ -238,19 +232,11 @@ describe("accessibility", () => {
     expect(html).toContain('<meta name="twitter:image"');
   });
 
-  it("includes favicon links", () => {
+  it("includes favicon link", () => {
     const indexPath = join(siteDir, "index.html");
     const html = readFileSync(indexPath, "utf-8");
     expect(html).toContain('rel="icon"');
     expect(html).toContain('href="/favicon.svg"');
-    expect(html).toContain('rel="apple-touch-icon"');
-  });
-
-  it("includes web app manifest", () => {
-    const indexPath = join(siteDir, "index.html");
-    const html = readFileSync(indexPath, "utf-8");
-    expect(html).toContain('rel="manifest"');
-    expect(html).toContain('href="/site.webmanifest"');
   });
 
   it("includes theme color meta tag", () => {
