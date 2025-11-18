@@ -4,6 +4,7 @@ import markdownIt from "markdown-it";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("public");
 
   // Configure markdown-it with typographer for em dashes and smart quotes
   const md = markdownIt({
@@ -14,7 +15,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {
-      base: "/llms-unplugged/",
+      base: "/",
       plugins: [tailwindcss()],
       build: {
         rollupOptions: {
@@ -34,6 +35,6 @@ export default function (eleventyConfig) {
       includes: "_includes",
       layouts: "_layouts",
     },
-    pathPrefix: "/llms-unplugged/",
+    pathPrefix: "/",
   };
 }
