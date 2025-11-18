@@ -71,6 +71,32 @@ describe("build output", () => {
     expect(css).toContain(".prose");
   });
 
+  it("includes modern CSS features", () => {
+    const assetsDir = join(siteDir, "assets");
+    const files = readdirSync(assetsDir);
+    const cssFile = files.find((f) => f.endsWith(".css"));
+    const cssPath = join(assetsDir, cssFile);
+    const css = readFileSync(cssPath, "utf-8");
+
+    // Fluid typography with clamp()
+    expect(css).toContain("clamp(");
+
+    // Focus visible styles
+    expect(css).toContain(":focus-visible");
+
+    // Reduced motion support
+    expect(css).toContain("prefers-reduced-motion");
+
+    // Print styles
+    expect(css).toContain("@media print");
+
+    // CSS containment
+    expect(css).toContain("contain:");
+
+    // Skip link styles
+    expect(css).toContain(".skip-link");
+  });
+
   it("generates valid HTML with correct structure", () => {
     const indexPath = join(siteDir, "index.html");
     const html = readFileSync(indexPath, "utf-8");
@@ -177,6 +203,61 @@ describe("accessibility", () => {
     const indexPath = join(siteDir, "index.html");
     const html = readFileSync(indexPath, "utf-8");
     expect(html).toContain('<meta name="viewport"');
+  });
+
+  it("includes skip link for keyboard navigation", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain('class="skip-link"');
+    expect(html).toContain('href="#main-content"');
+    expect(html).toContain("Skip to main content");
+  });
+
+  it("includes main content id for skip link target", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain('id="main-content"');
+  });
+
+  it("includes Open Graph meta tags", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain('<meta property="og:type"');
+    expect(html).toContain('<meta property="og:url"');
+    expect(html).toContain('<meta property="og:title"');
+    expect(html).toContain('<meta property="og:description"');
+    expect(html).toContain('<meta property="og:image"');
+  });
+
+  it("includes Twitter Card meta tags", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain('<meta name="twitter:card"');
+    expect(html).toContain('<meta name="twitter:url"');
+    expect(html).toContain('<meta name="twitter:title"');
+    expect(html).toContain('<meta name="twitter:description"');
+    expect(html).toContain('<meta name="twitter:image"');
+  });
+
+  it("includes favicon links", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain('rel="icon"');
+    expect(html).toContain('href="/favicon.svg"');
+    expect(html).toContain('rel="apple-touch-icon"');
+  });
+
+  it("includes web app manifest", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain('rel="manifest"');
+    expect(html).toContain('href="/site.webmanifest"');
+  });
+
+  it("includes theme color meta tag", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain('<meta name="theme-color" content="#be830e"');
   });
 });
 

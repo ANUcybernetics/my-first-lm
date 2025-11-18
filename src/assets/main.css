@@ -14,6 +14,37 @@
     --container-prose: 65ch;
 }
 
+@layer base {
+    /* Focus visible styles for keyboard navigation */
+    :focus-visible {
+        outline: 2px solid var(--color-anu-gold-2);
+        outline-offset: 2px;
+        border-radius: 0.125rem;
+    }
+
+    /* Remove outline for mouse users */
+    :focus:not(:focus-visible) {
+        outline: none;
+    }
+}
+
+/* Skip link for keyboard navigation */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--color-anu-gold);
+    color: var(--color-anu-black);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
 .prose {
     --tw-prose-body: var(--color-anu-white);
     --tw-prose-headings: var(--color-anu-white);
@@ -30,8 +61,11 @@
 
     color: var(--tw-prose-body);
     max-width: none;
-    font-size: 1.125rem;
+    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
     line-height: 1.8;
+
+    /* CSS Containment for better performance */
+    contain: layout style paint;
 }
 
 .prose a {
@@ -42,7 +76,7 @@
 }
 
 .prose a:hover {
-    color: var(--color-anu-gold-light);
+    color: var(--color-anu-gold-4);
 }
 
 .prose strong {
@@ -64,16 +98,16 @@
 }
 
 .prose h1 {
-    font-size: 2.25rem;
+    font-size: clamp(1.875rem, 1.5rem + 2vw, 2.25rem);
     margin-top: 0;
 }
 
 .prose h2 {
-    font-size: 1.875rem;
+    font-size: clamp(1.5rem, 1.25rem + 1.5vw, 1.875rem);
 }
 
 .prose h3 {
-    font-size: 1.5rem;
+    font-size: clamp(1.25rem, 1rem + 1vw, 1.5rem);
 }
 
 .prose p {
@@ -114,4 +148,48 @@
     border-color: var(--tw-prose-hr);
     margin-top: 3em;
     margin-bottom: 3em;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Print styles */
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+
+    header,
+    footer {
+        display: none;
+    }
+
+    .skip-link {
+        display: none;
+    }
+
+    main {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .prose a {
+        color: black;
+        text-decoration: underline;
+    }
+
+    .prose a[href^="http"]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.875em;
+    }
 }
