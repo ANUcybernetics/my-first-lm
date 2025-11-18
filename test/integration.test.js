@@ -179,3 +179,11 @@ describe("accessibility", () => {
     expect(html).toContain('<meta name="viewport"');
   });
 });
+
+describe("markdown processing", () => {
+  it("converts --- to em dashes", () => {
+    const indexPath = join(siteDir, "index.html");
+    const html = readFileSync(indexPath, "utf-8");
+    expect(html).toContain("using LLMs—knowledge");
+  });
+});
