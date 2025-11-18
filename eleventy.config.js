@@ -2,6 +2,7 @@ import EleventyVitePlugin from "@11ty/eleventy-plugin-vite";
 import tailwindcss from "@tailwindcss/vite";
 import markdownIt from "markdown-it";
 import markdownItFootnote from "markdown-it-footnote";
+import interlinker from "@photogabble/eleventy-plugin-interlinker";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
@@ -22,6 +23,11 @@ export default function (eleventyConfig) {
   md.renderer.rules.footnote_block_close = () => "</ol>\n" + "</section>\n";
 
   eleventyConfig.setLibrary("md", md);
+
+  eleventyConfig.addPlugin(interlinker, {
+    deadLinkReport: "console",
+    errorOnDeadLinks: true,
+  });
 
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {
