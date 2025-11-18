@@ -1,0 +1,28 @@
+{
+  "name": "llms-unplugged",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "preview": "eleventy --serve",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-vite": "^7.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@tailwindcss/vite": "^4.1.16",
+    "@vitejs/plugin-basic-ssl": "^2.1.0",
+    "vite": "^7.1.12",
+    "vitest": "^4.0.3"
+  }
+}
