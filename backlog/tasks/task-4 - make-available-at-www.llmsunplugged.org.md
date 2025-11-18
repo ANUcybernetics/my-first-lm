@@ -1,11 +1,13 @@
 ---
 id: task-4
 title: make available at www.llmsunplugged.org
-status: To Do
+status: Done
 assignee: []
-created_date: "2025-11-18 03:45"
+created_date: '2025-11-18 03:45'
+updated_date: '2025-11-18 05:02'
 labels: []
-dependencies: ["task-3"]
+dependencies:
+  - task-3
 ---
 
 I've purchased the domain name www.llmsunplugged.org from namecheap. Now I just
