@@ -8,6 +8,11 @@ title: LLMs Unplugged
 Ready-to-use teaching resources for understanding how large language models work
 through hands-on activities. No computers required.
 
+If you're just here for the resources, here they are:
+
+- **[Module cards](https://github.com/ANUcybernetics/my-first-lm/blob/main/teaching/out/modules.pdf)**
+- **[Instructor notes](https://github.com/ANUcybernetics/my-first-lm/blob/main/teaching/out/instructors-notes.pdf)**
+
 ## What is this?
 
 ChatGPT arrived in November 2022 and suddenly everyone's using LLMs---knowledge
