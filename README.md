@@ -1,6 +1,8 @@
 # LLMs Unplugged
 
-Static site for llmsunplugged.org
+Website for [LLMs Unplugged](https://llmsunplugged.org).
+
+TODO add a one paragraph description of what LLMs Unplugged is.
 
 ## Tech stack
 
