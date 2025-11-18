@@ -1,8 +1,16 @@
 import EleventyVitePlugin from "@11ty/eleventy-plugin-vite";
 import tailwindcss from "@tailwindcss/vite";
+import markdownIt from "markdown-it";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
+
+  // Configure markdown-it with typographer for em dashes and smart quotes
+  const md = markdownIt({
+    html: true,
+    typographer: true,
+  });
+  eleventyConfig.setLibrary("md", md);
 
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {

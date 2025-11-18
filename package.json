@@ -22,6 +22,7 @@
     "@playwright/test": "^1.56.1",
     "@tailwindcss/vite": "^4.1.16",
     "@vitejs/plugin-basic-ssl": "^2.1.0",
+    "markdown-it": "^14.1.0",
     "vite": "^7.1.12",
     "vitest": "^4.0.3"
   }
