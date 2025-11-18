@@ -46,21 +46,20 @@
     top: 0;
 }
 
-@theme inline {
-    --prose--body: var(--color-anu-white);
-    --prose--heading: var(--color-anu-white);
-    --prose--link: var(--color-anu-gold-2);
-    --prose--link-hover: var(--color-anu-gold-4);
-    --prose--bold: var(--color-anu-white);
-    --prose--counter: var(--color-anu-white);
-    --prose--bullet: var(--color-anu-white);
-    --prose--hr: var(--color-anu-gold);
-    --prose--quote: var(--color-anu-white);
-    --prose--quote-border: var(--color-anu-gold);
-    --prose--caption: var(--color-anu-white);
-    --prose--code: var(--color-anu-white);
-    --prose--code-bg: var(--color-anu-unilink-gold);
-    --prose--code-ring: var(--color-anu-gold-4);
+.prose {
+    --tw-prose-body: var(--color-anu-white);
+    --tw-prose-headings: var(--color-anu-white);
+    --tw-prose-links: var(--color-anu-gold-2);
+    --tw-prose-bold: var(--color-anu-white);
+    --tw-prose-counters: var(--color-anu-white);
+    --tw-prose-bullets: var(--color-anu-white);
+    --tw-prose-hr: var(--color-anu-gold);
+    --tw-prose-quotes: var(--color-anu-white);
+    --tw-prose-quote-borders: var(--color-anu-gold);
+    --tw-prose-captions: var(--color-anu-white);
+    --tw-prose-code: var(--color-anu-white);
+    --tw-prose-pre-code: var(--color-anu-white);
+    --tw-prose-pre-bg: var(--color-anu-unilink-gold);
 }
 
 /* Reduced motion support */
