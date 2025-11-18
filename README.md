@@ -49,6 +49,17 @@ For watch mode during development:
 npm run test:watch
 ```
 
+## Lighthouse
+
+```bash
+npm run lighthouse
+```
+
+Runs Lighthouse CI (`lhci autorun`) against the built `_site` output, auditing
+the main pages (`/`, `/related/`, `/contact/`). Reports are written to
+`.lighthouse/` (JSON and HTML). The command runs `npm run build` first; if you
+prefer to inspect existing build output, run `lhci autorun` directly.
+
 ## Project structure
 
 ```

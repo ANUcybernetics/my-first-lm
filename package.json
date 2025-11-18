@@ -8,7 +8,8 @@
     "build": "eleventy",
     "preview": "eleventy --serve",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "lighthouse": "npm run build && lhci autorun"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,7 @@
     "@playwright/test": "^1.56.1",
     "@tailwindcss/vite": "^4.1.16",
     "@vitejs/plugin-basic-ssl": "^2.1.0",
+    "@lhci/cli": "^0.15.1",
     "markdown-it": "^14.1.0",
     "vite": "^7.1.12",
     "vitest": "^4.0.3"
