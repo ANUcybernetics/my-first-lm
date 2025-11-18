@@ -22,7 +22,7 @@ They've heard the mystical-sounding explanations, maybe picked up some vague
 notions about "neural networks" and "training data", but the core mechanism
 remains opaque.
 
-LLMs Unplugged cuts through that opacity using the simplest possible approach:
+_LLMs Unplugged_ cuts through that opacity using the simplest possible approach:
 you build your own language model from scratch with pen, paper, and dice.
 
 The process is straightforward. You manually count word patterns in some

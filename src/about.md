@@ -5,7 +5,7 @@ title: About
 
 # About
 
-LLMs Unplugged builds on a rich history of unplugged computing education (and
+_LLMs Unplugged_ builds on a rich history of unplugged computing education (and
 hands-on education in genral). If you're interested in where these ideas came
 from---or where to go next---this is the reading list.
 
@@ -23,7 +23,7 @@ More importantly: it works (the
 Making learning these concepts both effective and fun turns is possible, and CS
 Unplugged proved has proven that at scale.
 
-LLMs Unplugged applies this same philosophy to language models. Rather than
+_LLMs Unplugged_ applies this same philosophy to language models. Rather than
 explaining transformers through mathematics or implementing neural networks in
 code, participants build working models with pen, paper, and dice. This hands-on
 approach makes sophisticated AI concepts accessible to anyone, regardless of
@@ -81,8 +81,8 @@ hand-crafted statistics.
 
 ## Connection to modern LLMs
 
-The activities in LLMs Unplugged demonstrate the same operations used in current
-language models. The differences are mostly about scale:
+The activities in _LLMs Unplugged_ demonstrate the same operations used in
+current language models. The differences are mostly about scale:
 
 - **Parameters**: hand-built models have dozens to hundreds versus billions in
   modern LLMs, but the core concepts remain identical

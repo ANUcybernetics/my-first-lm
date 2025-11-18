@@ -5,7 +5,7 @@ title: Contact
 
 # Contact
 
-LLMs Unplugged is a
+_LLMs Unplugged_ is a
 [Cybernetic Studio's](https://cybernetics.anu.edu.au/cybernetic-studio/)
 project, led by [Ben Swift](https://benswift.me) at the
 [ANU School of Cybernetics](https://cybernetics.anu.edu.au). The materials have
@@ -50,7 +50,7 @@ shaping technology in society. The School's
 hands-on resources and runs workshops exploring the social, technical, and
 political dimensions of emerging technologies.
 
-LLMs Unplugged reflects the School's commitment to making sophisticated
+_LLMs Unplugged_ reflects the School's commitment to making sophisticated
 technical concepts accessible to diverse audiences and fostering critical
 engagement with AI systems that increasingly mediate how we work, learn, and
 communicate. Understanding how these systems actually work---not through
