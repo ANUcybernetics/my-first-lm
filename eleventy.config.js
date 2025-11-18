@@ -1,6 +1,7 @@
 import EleventyVitePlugin from "@11ty/eleventy-plugin-vite";
 import tailwindcss from "@tailwindcss/vite";
 import markdownIt from "markdown-it";
+import markdownItFootnote from "markdown-it-footnote";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
@@ -10,7 +11,7 @@ export default function (eleventyConfig) {
   const md = markdownIt({
     html: true,
     typographer: true,
-  });
+  }).use(markdownItFootnote);
   eleventyConfig.setLibrary("md", md);
 
   eleventyConfig.addPlugin(EleventyVitePlugin, {
