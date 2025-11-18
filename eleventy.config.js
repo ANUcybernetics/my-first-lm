@@ -14,6 +14,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {
+      base: "/llms-unplugged/",
       plugins: [tailwindcss()],
       build: {
         rollupOptions: {
@@ -33,5 +34,6 @@ export default function (eleventyConfig) {
       includes: "_includes",
       layouts: "_layouts",
     },
+    pathPrefix: "/llms-unplugged/",
   };
 }
