@@ -31,8 +31,10 @@ All materials are available under a Creative Commons BY-NC-SA 4.0 license at
 
 The repository includes:
 
-- Module cards (printable PDF handouts)
-- Instructor notes with pedagogical scaffolding
+- [Module cards](https://github.com/ANUcybernetics/my-first-lm/blob/main/teaching/out/modules.pdf)
+  (printable PDF handouts)
+- [Instructor notes](https://github.com/ANUcybernetics/my-first-lm/blob/main/teaching/out/instructors-notes.pdf)
+  with pedagogical scaffolding
 - Software tools (MIT licensed) for generating custom n-gram booklets
 
 We encourage educators to use, adapt, and improve the material. If you've made

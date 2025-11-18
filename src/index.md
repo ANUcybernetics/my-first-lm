@@ -52,12 +52,14 @@ The complete resource pack is available under a Creative Commons BY-NC-SA 4.0
 license at
 [github.com/ANUcybernetics/my-first-lm](https://github.com/ANUcybernetics/my-first-lm):
 
-- **Module cards**: ten double-sided printable handouts, each covering a
-  self-contained activity from basic training and generation through to advanced
-  concepts like embeddings, sampling strategies, and low-rank adaptation
-- **Instructor notes**: pedagogical scaffolding explaining connections to modern
-  LLMs, discussion questions, and historical context---designed for educators
-  without deep AI expertise
+- **[Module cards](https://github.com/ANUcybernetics/my-first-lm/blob/main/teaching/out/modules.pdf)**:
+  ten double-sided printable handouts, each covering a self-contained activity
+  from basic training and generation through to advanced concepts like
+  embeddings, sampling strategies, and low-rank adaptation
+- **[Instructor notes](https://github.com/ANUcybernetics/my-first-lm/blob/main/teaching/out/instructors-notes.pdf)**:
+  pedagogical scaffolding explaining connections to modern LLMs, discussion
+  questions, and historical context---designed for educators without deep AI
+  expertise
 - **Software tools**: optional open-source tools to create custom n-gram
   booklets from any text corpus, so you can build domain-specific pre-trained
   models
