@@ -11,6 +11,7 @@
     --color-anu-copper: #be4e0e;
     --color-anu-grey-table-alt: #1a1a1a;
     --color-anu-grey-table-line: #b0b0b0;
+    --container-prose: 65ch;
 }
 
 .prose {
@@ -28,8 +29,9 @@
     --tw-prose-code-bg: var(--color-anu-unilink-gold);
 
     color: var(--tw-prose-body);
-    max-width: 65ch;
-    line-height: 1.7;
+    max-width: none;
+    font-size: 1.125rem;
+    line-height: 1.8;
 }
 
 .prose a {
