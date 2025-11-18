@@ -12,6 +12,15 @@ export default function (eleventyConfig) {
     html: true,
     typographer: true,
   }).use(markdownItFootnote);
+
+  // Customize footnote rendering to use Tailwind classes
+  md.renderer.rules.footnote_block_open = () =>
+    '<hr class="border-anu-gold my-12">\n' +
+    '<section class="footnotes text-sm mt-12">\n' +
+    '<ol class="list-decimal pl-6">\n';
+
+  md.renderer.rules.footnote_block_close = () => "</ol>\n" + "</section>\n";
+
   eleventyConfig.setLibrary("md", md);
 
   eleventyConfig.addPlugin(EleventyVitePlugin, {
