@@ -80,7 +80,7 @@ describe("build output", () => {
 
     // The CSS file should exist and be a hashed bundle
     const cssHref = linkMatch[1];
-    expect(cssHref).toMatch(/\/assets\/index-[a-zA-Z0-9_-]+\.css$/);
+    expect(cssHref).toMatch(/\/assets\/main-[a-zA-Z0-9_-]+\.css$/);
 
     // Verify the CSS file exists
     const cssFileName = cssHref.replace("/assets/", "");
