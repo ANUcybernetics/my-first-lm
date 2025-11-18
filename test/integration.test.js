@@ -148,7 +148,7 @@ describe("navigation", () => {
   it("includes site branding link", () => {
     const indexPath = join(siteDir, "index.html");
     const html = readFileSync(indexPath, "utf-8");
-    expect(html).toMatch(/<a[^>]*href="\/"[^>]*>\s*LLMs Unplugged\s*<\/a>/);
+    expect(html).toMatch(/<a[^>]*href="\/"[^>]*>\s*Home\s*<\/a>/);
   });
 
   it("includes semantic main element", () => {
@@ -244,6 +244,20 @@ describe("accessibility", () => {
     const html = readFileSync(indexPath, "utf-8");
     expect(html).toContain('<meta name="theme-color" content="#be830e"');
   });
+
+  it("includes favicon.svg in build output", () => {
+    const faviconPath = join(siteDir, "favicon.svg");
+    expect(existsSync(faviconPath)).toBe(true);
+    const svg = readFileSync(faviconPath, "utf-8");
+    expect(svg).toContain("<svg");
+  });
+
+  it("includes CNAME in build output", () => {
+    const cnamePath = join(siteDir, "CNAME");
+    expect(existsSync(cnamePath)).toBe(true);
+    const cname = readFileSync(cnamePath, "utf-8");
+    expect(cname.trim()).toBe("www.llmsunplugged.org");
+  });
 });
 
 describe("markdown processing", () => {
@@ -251,5 +265,61 @@ describe("markdown processing", () => {
     const indexPath = join(siteDir, "index.html");
     const html = readFileSync(indexPath, "utf-8");
     expect(html).toContain("using LLMs—knowledge");
+  });
+});
+
+describe("llms.txt plugin", () => {
+  it("copies markdown source files to output directory", () => {
+    expect(existsSync(join(siteDir, "index.md"))).toBe(true);
+    expect(existsSync(join(siteDir, "about.md"))).toBe(true);
+    expect(existsSync(join(siteDir, "contact.md"))).toBe(true);
+  });
+
+  it("preserves markdown content in copied files", () => {
+    const indexMd = readFileSync(join(siteDir, "index.md"), "utf-8");
+    expect(indexMd).toContain("# LLMs Unplugged");
+    expect(indexMd).toContain("layout: base.njk");
+  });
+
+  it("generates llms.txt file", () => {
+    const llmsTxtPath = join(siteDir, "llms.txt");
+    expect(existsSync(llmsTxtPath)).toBe(true);
+  });
+
+  it("llms.txt follows specification with H1 site name", () => {
+    const llmsTxt = readFileSync(join(siteDir, "llms.txt"), "utf-8");
+    expect(llmsTxt).toMatch(/^# LLMs Unplugged\n/);
+  });
+
+  it("llms.txt includes blockquote with site description", () => {
+    const llmsTxt = readFileSync(join(siteDir, "llms.txt"), "utf-8");
+    expect(llmsTxt).toContain(
+      "> Ready-to-use teaching resources for understanding how large language models work through hands-on activities.",
+    );
+  });
+
+  it("llms.txt includes H2 section for documentation", () => {
+    const llmsTxt = readFileSync(join(siteDir, "llms.txt"), "utf-8");
+    expect(llmsTxt).toContain("## Documentation");
+  });
+
+  it("llms.txt includes links to markdown files with titles from frontmatter", () => {
+    const llmsTxt = readFileSync(join(siteDir, "llms.txt"), "utf-8");
+    expect(llmsTxt).toContain(
+      "[LLMs Unplugged](https://www.llmsunplugged.org/index.md)",
+    );
+    expect(llmsTxt).toContain(
+      "[About](https://www.llmsunplugged.org/about.md)",
+    );
+    expect(llmsTxt).toContain(
+      "[Contact](https://www.llmsunplugged.org/contact.md)",
+    );
+  });
+
+  it("llms.txt uses proper markdown list format", () => {
+    const llmsTxt = readFileSync(join(siteDir, "llms.txt"), "utf-8");
+    const lines = llmsTxt.split("\n");
+    const listItems = lines.filter((line) => line.startsWith("- ["));
+    expect(listItems.length).toBeGreaterThanOrEqual(3);
   });
 });

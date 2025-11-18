@@ -3,10 +3,10 @@ import tailwindcss from "@tailwindcss/vite";
 import markdownIt from "markdown-it";
 import markdownItFootnote from "markdown-it-footnote";
 import interlinker from "@photogabble/eleventy-plugin-interlinker";
+import llmsPlugin from "./eleventy-plugin-llms.js";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
-  eleventyConfig.addPassthroughCopy("public");
 
   // Configure markdown-it with typographer for em dashes and smart quotes
   const md = markdownIt({
@@ -29,9 +29,17 @@ export default function (eleventyConfig) {
     errorOnDeadLinks: true,
   });
 
+  eleventyConfig.addPlugin(llmsPlugin, {
+    siteUrl: "https://www.llmsunplugged.org",
+    siteName: "LLMs Unplugged",
+    siteDescription:
+      "Ready-to-use teaching resources for understanding how large language models work through hands-on activities.",
+  });
+
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {
       base: "/",
+      publicDir: ".llms-generated",
       plugins: [tailwindcss()],
       build: {
         rollupOptions: {
