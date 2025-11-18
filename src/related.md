@@ -35,8 +35,7 @@ As machine learning and artificial intelligence became more prominent in public
 discourse, educators naturally extended the unplugged approach to these fields,
 for example:
 
-- [AI Unplugged](https://www.aiunplugged.org) by Stefan Seegerer and Annabel
-  Lindner
+- [AI Unplugged](https://www.aiunplugged.org) by Lindner, Seegerer and Romeike
 - Northwestern University's
   [AI Unplugged Resources](https://sites.northwestern.edu/aiunplugged/)
 
