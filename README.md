@@ -1,6 +1,6 @@
 # LLMs Unplugged
 
-Website for [LLMs Unplugged](https://llmsunplugged.org).
+Website for [LLMs Unplugged](https://www.llmsunplugged.org).
 
 TODO add a one paragraph description of what LLMs Unplugged is.
 
