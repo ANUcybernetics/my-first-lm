@@ -7,5 +7,4 @@ dist/
 *.log
 npm-debug.log*
 .vite-temp/
-.lighthouseci/
-.lighthouse/
+.unlighthouse/
