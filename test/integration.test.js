@@ -147,8 +147,7 @@ describe("navigation", () => {
   it("includes all navigation links", () => {
     const indexPath = join(siteDir, "index.html");
     const html = readFileSync(indexPath, "utf-8");
-    expect(html).toContain('href="/"');
-    expect(html).toContain('href="/related/"');
+    expect(html).toContain('href="/about/"');
     expect(html).toContain('href="/contact/"');
   });
 
@@ -171,11 +170,11 @@ describe("navigation", () => {
     expect(html).toContain("Cybernetic Studio");
   });
 
-  it("generates related page", () => {
-    const relatedPath = join(siteDir, "related", "index.html");
-    expect(existsSync(relatedPath)).toBe(true);
-    const html = readFileSync(relatedPath, "utf-8");
-    expect(html).toContain("Related resources");
+  it("generates about page", () => {
+    const aboutPath = join(siteDir, "about", "index.html");
+    expect(existsSync(aboutPath)).toBe(true);
+    const html = readFileSync(aboutPath, "utf-8");
+    expect(html).toContain("About");
   });
 
   it("generates contact page", () => {

@@ -1,9 +1,9 @@
 ---
 layout: base.njk
-title: Related Resources
+title: About
 ---
 
-# Related resources
+# About
 
 LLMs Unplugged builds on a rich history of unplugged computing education (and
 hands-on education in genral). If you're interested in where these ideas came
